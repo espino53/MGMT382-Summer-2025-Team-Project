@@ -1,0 +1,185 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title> Products</title>
+  <style>
+    body {
+      font-family: "Garamond", serif;
+      background-color: #f4faff;
+      color: #333;
+      margin: 0;
+      padding: 40px 10%;
+      line-height: 1.8;
+    }
+
+    h1 {
+      color: #4682B4;
+      font-size: 48px;
+      text-align:center;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #4682B4;
+      text-align:left;
+      font-size: 28px;
+      margin-top: 40px;
+      border-bottom: 2px solid #cfe2f3;
+      padding-bottom: 8px;
+    }
+
+    p, li {
+      font-size: 20px;
+    }
+
+    img {
+      
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+
+    .navy {
+      color: #002f5f;
+    }
+
+    .button-link {
+      display: inline-block;
+      padding: 12px 20px;
+      font-size: 18px;
+      color: white;
+      background-color: #4682B4;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+
+    .button-link:hover {
+      background-color: #3b6ca3;
+    }
+
+    a {
+      color: #4682B4;
+      text-decoration: none;
+      font-weight: 550;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 16px;
+      color: #777;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Products </h1> 
+  <center>
+  <img src="hospital_bed.webp" alt="Hospital Bed">
+  <img src="monitor.webp" alt="Patient Monitor">
+  <img src="vitals.webp" alt="Vital Signs Monitor">
+  <img src="walker.webp" alt="Walker">
+  <img src="stethoscope.webp" alt="Stethscope">
+ <img src="glucose_monitor.webp" alt="Glucose Monitor">
+  </center>
+  
+  
+  
+ <center> <p style="font-family:Anko"><I> Discover our products offered at Eloheh Healthcare Solutions.</I></p></center>
+  
+  <h2>About Our Products</h2>
+  <p> Our products inhclude a wide range of categoies from Basic Healthcare supplies, mobility Aids, durable medical equipment, medical devices, medications, and even fitness equipment. We outsource from the top health manufactures with an emphasis in R&D. Additionally, we offer coupons, discounts, and promotions to keep our costs down and ensure everyone has access to our supplies. </p>
+  
+  <h2> Top Suppliers</h2>
+   
+    <ol>
+    <img src="JJLogo.jpg" alt="J&J Logo">
+    <li><b>Johnson & Johnson</b></li>
+    <p> Known for their pharmaceutical research, and 3D printing that is evolving treatments for emergencies and surgeries. </p>
+   <img src="gsklogo.jpg" alt="GlaxoSmithKline Logo">
+    <li><b>GlaxoSmithKline</b></li>
+    <p> Headquared in the UK, GSP has a strong focus on pain relief, oral health, respiratory care, nurtrition, and more. </p>
+    <img src=" Novartis_Pharma_AG-Logo.jpg" alt=" Novartis Pharma AG Logo">
+    <li><b>Novartis International</b></li>
+    <p>With a focus on cardiovascular diseases and health inequity, Novartis International has been improving communities around the world. </p>
+  </ol>
+ 
+
+  <h2>Some Products</h2>
+  
+  <p>
+  <b> Mobility Aids</b><ul>
+  <li>Wheelchairs</li>
+ <li> Portable Electric Wheelchairs</li>
+  <li>Mobility Scooters</li>
+  <li>Strollers</li>
+  <li>Canes</li>
+  </ul>
+  
+   <b> Durable Medical Equipent</b><ul>
+  <li>Oxygen Concentrators</li>
+ <li>Nebulizers</li>
+  <li>CPAP Machines</li>
+  <li>Patient Lifts</li>
+  <li>Hospital Beds</li>
+  </ul>
+  
+  <b> Diabetes Blood Sugar Testing</b><ul>
+  <li>Glucose Monitor</li>
+  <li>Glucose Test Strips</li>
+ <li> Sterile Lancets</li>
+  <li>Alcohol Wipes</li></ul>
+  
+  <b>Basic Supplies</b><ul>
+  <li>First Aid Kits</li>
+  <li>Gloves</li>
+ <li> Pain Releivers </li>
+  <li>Stethescope</li></ul>
+  </p>
+  
+  <h2>Reminders When Ordering</h2>
+ <p> When placing an order, make sure you have your insurance card, have updated your patient portal, and verified the correct brand and quanity with your primary health care provider. 
+  </p>
+
+
+  <h2>More Information</h2>
+  <p> Learn more about Medicaid at 
+    <a href="https://www.medicaid.gov/" target="_blank" rel="noopener noreferrer">Medicaid.gov</a>.
+  </p>
+    <p>
+    Learn more about Medicare at 
+    <a href=https://www.medicare.gov/medical-equipment-suppliers/" target="_blank" rel="noopener noreferrer">medicare.gov</a>.
+  </p>
+ <p>
+ Learn more aout the Health Products Catolog at  <a href="https://nhpc.ie/"target="_blank"> nhpc.ie </a>.</p>
+
+  <h2>Product List</h2>
+  <a href="product_list.pdf" download class="button-link">Download Our Full Product List (PDF)</a>
+
+
+
+  <h2>Contact US</h2>
+  <p> Email us at 
+    <a href="mailto:camach27@purdue.edu"> camach27@purdue.edu</a>
+  </p>
+  
+
+  <footer>
+    <p id="lastModified">Last modified: </p>
+    <script>
+      const lastModified = document.lastModified;
+      document.getElementById("lastModified").innerText = "Last modified: " + lastModified;
+    </script>
+  </footer>
+
+</body>
+</html>
